@@ -32,8 +32,8 @@ li{
     color: #27187F;
 }
 .border_box{
+    width: 221px;
    border: solid #27187F;
-   width: 221px;
    border-radius: 10px;
    padding: 4px 6.2px;
    justify-content: flex-end;
@@ -44,3 +44,49 @@ li{
 color: #758BFD;
 }
 /* Header End  */
+
+/* Section Start  */
+
+section{
+background-color: #DDEAF8;
+padding: 94px 98px 135px 98px;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 68px;
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.cards {
+    height: 717px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 51px;
+
+
+}
+
+
+.card_div {
+    width: 400px;
+    /* height-ის გარეშე ძაან წელავს ქვემოთ, მაგრამ მგონი არ უნდა ვწერდე Heigt-ს ხო? */
+    height: 333px;
+    padding: 33px 30px 112px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+margin-top: 33px;
+}
+
+/* Section End  */
