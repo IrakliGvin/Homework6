@@ -90,3 +90,47 @@ margin-top: 33px;
 }
 
 /* Section End  */
+
+/* Footer start  */
+
+footer{
+    padding: 75px 98px;
+    background-color: #758BFD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer_div{
+     display: inline-block;
+    vertical-align: middle;
+
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #00CAD7;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.mail_P{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+.SM{
+    display: flex;
+    justify-content: space-between;
+}
+.SM_icons{
+    color: #FFFFFF;
+    width: 22px;
+    height: 22px;
+}
+.payments{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+/* Footer End  */
