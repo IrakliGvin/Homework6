@@ -1,0 +1,46 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Header Start  */
+header {
+    padding: 57px 100px 57px 98px;
+    background-color: #FFFFFF;
+}
+
+.Header_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    width: 393px;
+}
+.nav_li {
+    display: flex;
+    justify-content: space-between;
+
+}
+li{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #758BFD;
+}
+.news_li{
+    color: #27187F;
+}
+.border_box{
+   border: solid #27187F;
+   width: 221px;
+   border-radius: 10px;
+   padding: 4px 6.2px;
+   justify-content: flex-end;
+   display: flex;
+
+}
+.fa-magnifying-glass {
+color: #758BFD;
+}
+/* Header End  */
